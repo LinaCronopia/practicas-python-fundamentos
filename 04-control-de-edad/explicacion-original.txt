@@ -1,0 +1,43 @@
+------------------------------------------------------------------------------------------------------
+ALGORITMOS III PRÁCTICA
+Definimos si se permite la entrada a la discoteca según la edad del cliente
+------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+Problematica:
+El usuario quiere saber si el cliente puede ingresar a la discoteca según su edad
+------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+Algoritmo:
+1. Solicitar al usuario que ingrese la edad del cliente
+2. Verificar si la edad ingresada cumple con los requisitos para entrar a la discoteca
+3. Mostrar al usuario si su cliente puede o no ingresar a la discoteca
+------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+Pseudocódigo
+
+Inicio
+    Paso 1: Solicitar al usuario que ingrese la edad del cliente
+        Mostrar mensaje: "Por favor, ingrese la edad del cliente "
+        Leer el dato ingresado y asignarlo a la variable edad
+    
+    Paso 2: Verificar si la edad ingresada cumple con el requisito para ingresar a la discoteca
+        Si edad >= 18 entonces
+            Asignar a la variable permitido que sea verdadero
+        Si edad < 18
+            Asdignar a la variable permitido que sea falso
+        Fin si
+    
+    Paso 3: Mostrar al usuario si su cliente puede o no ingresar a la disccoteca d
+        Si permitido es verdadero 
+            Mostrar mensaje "Puede ingresar a la discoteca"
+        Si permitido es falso
+            Mostrar mensaje "No tiene edad suficiente para entrar a la disccoteca"
+        Fin si
+Fin
+------------------------------------------------------------------------------------------------------
+
+Finalmente, en el diagrama de flujo y el código Python los pasos 2 y 3 se realizan al mismo tiempo con elfin de que sea más eficiente
+

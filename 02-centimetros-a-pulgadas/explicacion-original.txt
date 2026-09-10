@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------------------------------
+PRÁCTICA FINAL II
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Problemática: La compañia estadounidense American MegaDesign está realizando un nuevo modelo de muebles 
+basados en los planos del famoso diseñador industrial italiano Martin Voccoto pero muchas piezas están 
+en centímetros y las maquinarias americanas en pulgadas
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Algoritmo:
+
+1. Solicitar al usuario las medidas de la pieza del mueble en centímetros
+2. Convertir las medidas de cms a pulgadas. 
+3. Mostrar al usuario la medida en pulgadas
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Pseudocódigo:
+
+Inicio
+    Paso 1. Solicitar al usuario las medidas de la pieza del mueble en centímetros
+        Mostrar mensaje: "Ingrese las medidas de la pieza del mueble en cms"
+    
+    Paso 2. Convertir las medidas de cms a pulgadas. 
+        Hacer la conversión: medida_en_pulgadas = medidas_en_ centímetros / 2.54
+    
+    Paso 3. Mostrar al usuario la medida en pulgadas
+        Mostrar mensaje: "Las medidas de la pieza en pulgadas es: ", medida_en_pulgadas
+
+FINAL
+-------------------------------------------------------------------------------------------------------
+
+
+
+
+

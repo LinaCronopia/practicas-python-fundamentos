@@ -1,0 +1,45 @@
+----------------------------------------------------------------------------
+PRÁCTICA FINAL 1 - INTRODUCCION A PYTHON
+CONVERSIÓN DE MONEDAS
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Problemática:
+La empresa mexicana SuperTEch está perdiendo dinero porque las transacciones
+desde moneda internacinal hay muchos errores del personal al realizar cálculos
+a mano para pasar de euro (EUR) a peso mexicano (MXN) y de dolar(USD) a peso mexicano
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Algoritmo
+1. Solicitar al usuario el tipo de conversión (USD a MXN) o (EUR a MXN)
+2. Solicitar al usuario el monto a convertir
+3. Realizar la conversión utilizando el tipo de cambio actual
+4. Mostrar el resultado de la conversión al usuario
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Pseudocódigo
+
+Inicio del programa
+    1. Definir tipo de cambio. Variables:
+        tipo_cambio_usd_a_mxn
+        tipo_cambio_eur_a_mxn
+    Solicitar tipo de conversón al usuario (EUR o USD)
+    Mostrar mensaje: "Ingrese la moneda de origen para la conversion"
+
+    2. Solicitar monto.
+        varible monto_a_convertir
+    Mostrar mensaje: "Ingrese el monto a convertir"
+
+    3. Realizar la conversión
+        Si tipo_conversion == "EUR", entonces
+            conversión_eur = monto_a_convertir * tipo_cambio_eur_a_mxn
+            Mostrar mensaje: "El resultado de la conversión de euros a pesos mexicanos es: ", conversion_eur
+        Si tipo_conversión == "USD", entonces
+            conversión usd = monto_a_convertir * tipo_cambio_usd_a_mxn
+            Mostrar mensaje: "El resultado de la conversión de dolar a pesos mexicanos es ", conversion_usd 
+        sino
+            Mostrar mensaje: "Tipo de conversión no valida"
+Fin
+----------------------------------------------------------------------------
